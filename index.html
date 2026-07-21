@@ -11,17 +11,38 @@
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <main class="page">
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="topbar-brand" href="#top">Yutao Cui</a>
+      <nav class="topbar-nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#news">News</a>
+        <a href="#publications">Publications</a>
+        <a href="#awards">Awards</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page" id="top">
     <header class="profile">
       <img class="avatar" src="assets/avatar.jpg" alt="Yutao Cui" width="150" height="200" />
       <div class="profile-text">
         <h1>Yutao Cui <span class="cn">崔玉涛</span></h1>
         <p class="title">Senior Researcher, Tencent Hunyuan</p>
-        <p class="links">
-          <a href="https://scholar.google.com/citations?user=TSMchWcAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
-          <span class="sep">·</span>
-          <a href="https://github.com/yutaocui" target="_blank" rel="noopener">GitHub</a>
-        </p>
+        <div class="social">
+          <a class="social-btn" href="mailto:bit.cyt@gmail.com" title="Email">
+            <svg viewBox="0 0 24 24" aria-hidden="true" width="16" height="16"><path fill="currentColor" d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            <span>Email</span>
+          </a>
+          <a class="social-btn" href="https://scholar.google.com/citations?user=TSMchWcAAAAJ&hl=en" target="_blank" rel="noopener" title="Google Scholar">
+            <svg viewBox="0 0 24 24" aria-hidden="true" width="16" height="16"><path fill="currentColor" d="M12 3 1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"/></svg>
+            <span>Scholar</span>
+          </a>
+          <a class="social-btn" href="https://github.com/yutaocui" target="_blank" rel="noopener" title="GitHub">
+            <svg viewBox="0 0 24 24" aria-hidden="true" width="16" height="16"><path fill="currentColor" d="M12 2C6.48 2 2 6.58 2 12.26c0 4.52 2.87 8.35 6.84 9.71.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.89 1.57 2.34 1.12 2.91.85.09-.66.35-1.12.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.73 0 0 .84-.27 2.75 1.05A9.3 9.3 0 0 1 12 6.84c.85.004 1.71.12 2.51.35 1.9-1.32 2.74-1.05 2.74-1.05.55 1.42.2 2.47.1 2.73.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.58.69.48A10.27 10.27 0 0 0 22 12.26C22 6.58 17.52 2 12 2z"/></svg>
+            <span>GitHub</span>
+          </a>
+        </div>
       </div>
     </header>
 
@@ -38,7 +59,13 @@
           As a <strong>core contributor</strong>, I have been involved in the development and release of
           <a href="https://github.com/Tencent-Hunyuan/HunyuanImage-3.0" target="_blank" rel="noopener">HunyuanImage 3.0</a>,
           <a href="https://arxiv.org/abs/2412.03603" target="_blank" rel="noopener">HunyuanVideo</a>,
-          and related multi-modal systems. I also <strong>lead the projects</strong> of MixGRPO and the HYDRA / HYDRA-X series.
+          and related multi-modal systems. I also <strong>lead the projects</strong> of
+          <a href="https://github.com/Tencent-Hunyuan/MixGRPO" target="_blank" rel="noopener">MixGRPO</a>
+          and the
+          <a href="https://arxiv.org/abs/2603.15228" target="_blank" rel="noopener">HYDRA</a>
+          /
+          <a href="https://arxiv.org/abs/2606.13289" target="_blank" rel="noopener">HYDRA-X</a>
+          series.
         </p>
         <p>
           I received my Ph.D. in Computer Science and Technology from
