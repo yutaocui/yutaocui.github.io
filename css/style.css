@@ -24,7 +24,7 @@
 body {
   margin: 0;
   color: var(--text);
-  font-family: var(--font-sans);
+  font-family: var(--font-sans), "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
   font-size: 16.5px;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
